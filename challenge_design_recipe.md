@@ -2,6 +2,7 @@
 
 1. Test-drive a route GET /artists, which returns the list of artists:
 
+```
 # Request:
 GET /artists
 
@@ -14,6 +15,7 @@ GET /artists
 
 # Expected response (200 OK)
 Pixies, ABBA, Taylor Swift, Nina Simone
+```
 
 2. Test-drive a route POST /artists, which creates a new artist in the database. Your test should verify the new artist is returned in the response of GET /artists.
 
